@@ -1,30 +1,30 @@
-#hero{
-    background: url("../images/maxim-hopman-52Kf36w124Y-unsplash.jpg") ;
+#hero {
+    background: url("../images/maxim-hopman-52Kf36w124Y-unsplash.jpg");
     background-size: cover;
     height: 100vh;
-    filter: brightness(100%) ;
+    filter: brightness(100%);
 }
 
-#backLayer{
-    background: url("../images/maxim-hopman-52Kf36w124Y-unsplash.jpg") ;
+#backLayer {
+    background: url("../images/maxim-hopman-52Kf36w124Y-unsplash.jpg");
     background-size: cover;
     height: 100vh;
-    filter: brightness(50%) contrast(500%);
+    filter: brightness(50%) contrast(600%);
     opacity: 0.3;
 }
 
-#logo{
+#logo {
     height: 35vh;
     width: min-content;
     z-index: 2;
-    filter: brightness(120%) ;
+    filter: brightness(120%);
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 0;
 }
 
-#heroIntro{
+#heroIntro {
     position: absolute;
     inset: 0;
     margin: auto;
@@ -36,7 +36,7 @@
     align-items: center;
 }
 
-#heroIntro>h1{
+#heroIntro > h1 {
     font-family: 'Amarante', serif;
     font-style: normal;
     font-weight: 400;
@@ -45,6 +45,23 @@
 
     color: #FFFFFF;
 }
-#heroIntro>h1:nth-of-type(2){
+
+#heroIntro > h1:nth-of-type(2) {
     font-size: 61px;
+}
+
+#heroIntro h3 {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#heroIntro > div {
+    display: flex;
+    gap: 20px;
 }
