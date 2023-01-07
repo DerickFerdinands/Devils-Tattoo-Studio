@@ -2,23 +2,49 @@
     background: url("../images/maxim-hopman-52Kf36w124Y-unsplash.jpg") ;
     background-size: cover;
     height: 100vh;
-    filter: brightness(70%) contrast(100%);
+    filter: brightness(100%) ;
 }
 
 #backLayer{
     background: url("../images/maxim-hopman-52Kf36w124Y-unsplash.jpg") ;
     background-size: cover;
     height: 100vh;
-    filter: brightness(70%) contrast(100%);
+    filter: brightness(50%) contrast(500%);
     opacity: 0.3;
 }
 
 #logo{
-    background: url("../images/IMG-20221220-WA0011-removebg-preview.png") center;
     height: 35vh;
-    aspect-ratio: 1.1/1;
+    width: min-content;
+    z-index: 2;
+    filter: brightness(120%) ;
 }
 
 ::-webkit-scrollbar{
     width: 0;
+}
+
+#heroIntro{
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#heroIntro>h1{
+    font-family: 'Amarante', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 105px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+#heroIntro>h1:nth-of-type(2){
+    font-size: 61px;
 }
