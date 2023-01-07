@@ -1,0 +1,24 @@
+#hero{
+    background: url("../images/maxim-hopman-52Kf36w124Y-unsplash.jpg") ;
+    background-size: cover;
+    height: 100vh;
+    filter: brightness(70%) contrast(100%);
+}
+
+#backLayer{
+    background: url("../images/maxim-hopman-52Kf36w124Y-unsplash.jpg") ;
+    background-size: cover;
+    height: 100vh;
+    filter: brightness(70%) contrast(100%);
+    opacity: 0.3;
+}
+
+#logo{
+    background: url("../images/IMG-20221220-WA0011-removebg-preview.png") center;
+    height: 35vh;
+    aspect-ratio: 1.1/1;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
