@@ -1,3 +1,7 @@
+body {
+    background: #171717;
+}
+
 #hero {
     background: url("../images/maxim-hopman-52Kf36w124Y-unsplash.jpg");
     background-size: cover;
@@ -66,15 +70,16 @@
     gap: 20px;
 }
 
-#heroFooter{
+#heroFooter {
     width: 97vw;
-display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: flex-end;
     position: absolute;
     bottom: 2%;
 }
-#heroFooter>h3{
+
+#heroFooter > h3 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -87,20 +92,47 @@ display: flex;
     margin: 0;
 }
 
-#footerIMG{
+#footerIMG {
     display: flex;
     gap: 10px;
     align-items: flex-start;
 }
-#footerIMG>img:nth-of-type(1){
+
+#footerIMG > img:nth-of-type(1) {
     width: 20px;
     height: 29px;
 }
-#footerIMG>img:nth-of-type(2){
+
+#footerIMG > img:nth-of-type(2) {
     width: 27px;
     height: 32px;
 }
-#footerIMG>img:nth-of-type(3){
+
+#footerIMG > img:nth-of-type(3) {
     width: 33px;
     height: 31px;
+}
+
+#name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+/*    text-shadow:
+            -1px 0px 0px #78743C,
+            1px 0px 0px #78743C,
+            0px -1px 0px #78743C,
+            0px 1px 0px #78743C;*/
+    -webkit-text-stroke: 2px #78743C;
+    color: transparent !important;
+
+}
+
+#nameDesc{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+
+    color: #FFFFFF;
 }
