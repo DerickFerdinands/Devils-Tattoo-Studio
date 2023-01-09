@@ -187,6 +187,8 @@ body {
     transform: rotate(71.99deg);
     width: 305.2px;
     height: 142.64px;
+    position: relative;
+    top: 40px;
 }
 
 .subDeets>h1{
@@ -225,3 +227,37 @@ body {
 #about{
     height: 100vh;
 }
+
+#galSec{
+    border-left:  1px solid rgba(255, 255, 255, 0.54);
+    border-right:  1px solid rgba(255, 255, 255, 0.54);
+    height: 100vh;
+    padding: 0;
+    overflow: scroll;
+}
+#galDesc>h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+
+    color: #FFFFFF;
+}
+#galDesc>div{
+    width:40%;
+    border: 1px solid rgba(255, 255, 255, 0.54)
+}
+
+#galSec img{
+    width: 100%;
+    height: auto;
+}
+
+#galSec div{
+    padding: 0;
+    margin: 0;
+}
+
+/*.empty{*/
+/*    width: 50%;*/
+/*}*/
