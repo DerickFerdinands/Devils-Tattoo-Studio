@@ -136,3 +136,26 @@ body {
 
     color: #FFFFFF;
 }
+.aboutDeets>h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 39px;;
+
+    color: #FFFFFF;
+}
+.aboutDeets{
+    display: inline-block;
+}
+.aboutDeets>h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+#ownerDP{
+    width: 159px !important;
+    height: 179px;
+}
