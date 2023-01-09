@@ -80,7 +80,7 @@ body {
 }
 
 #heroFooter > h3 {
-    font-family: 'Poppins';
+    font-family: 'Poppins', serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -118,11 +118,6 @@ body {
     font-style: normal;
     font-weight: 800;
     font-size: 58px;
-/*    text-shadow:
-            -1px 0px 0px #78743C,
-            1px 0px 0px #78743C,
-            0px -1px 0px #78743C,
-            0px 1px 0px #78743C;*/
     -webkit-text-stroke: 2px #78743C;
     color: transparent !important;
 
@@ -158,4 +153,75 @@ body {
 #ownerDP{
     width: 159px !important;
     height: 179px;
+}
+
+#aboutDesc{
+    background: radial-gradient(50% 50% at 50% 50%, rgba(169, 163, 163, 0.14) 0%, rgba(199, 199, 199, 0) 100%);
+}
+#aboutDesc>div:first-of-type>div{
+    width: 481px;
+    height: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.54);
+}
+
+#aboutDesc>div:first-of-type>h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+
+    color: #FFFFFF;
+}
+#aboutDesc>div:first-of-type>h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    color: #D9D9D9;
+
+}
+
+#descPic{
+    background: url("../images/SS-M1Seitegrau-2-scaled__1_-removebg-preview.png") center;
+    background-size: cover;
+    transform: rotate(71.99deg);
+    width: 305.2px;
+    height: 142.64px;
+}
+
+.subDeets>h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    color: #FFFFFF;
+
+}
+.subDeets>h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    color: #D9D9D9;
+}
+
+#imgInk{
+    width: 215px;
+    height: 208px;
+
+    background: url("../images/BLUE2_1_5807e2ce-0a34-43db-b619-b018d1f74b36-removebg-preview.png") center;
+    background-size: cover;
+    position: relative;
+    bottom: 40px;
+    right: 100px;
+}
+
+#imgDesigns{
+    width: 96px;
+    height: 126px;
+    background: url("../images/mohammad-faruque-AgYOuy8kA7M-unsplash.jpg") center;
+    background-size: cover;
+}
+#about{
+    height: 100vh;
 }
