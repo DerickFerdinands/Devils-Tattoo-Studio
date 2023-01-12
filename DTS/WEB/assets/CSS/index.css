@@ -154,9 +154,17 @@ body {
     width: 159px !important;
     height: 179px;
 }
-
 #aboutDesc{
+    position: relative;
+}
+#ADBack{
+    height: 200%;
+    width: 100%;
+    position: absolute;
+    inset: 0;
+    margin: auto;
     background: radial-gradient(50% 50% at 50% 50%, rgba(169, 163, 163, 0.14) 0%, rgba(199, 199, 199, 0) 100%);
+    z-index: -1;
 }
 #aboutDesc>div:first-of-type>div{
     width: 481px;
@@ -208,14 +216,14 @@ body {
 }
 
 #imgInk{
-    width: 215px;
-    height: 208px;
+    width: 96px;
+    height: 126px;
 
     background: url("../images/BLUE2_1_5807e2ce-0a34-43db-b619-b018d1f74b36-removebg-preview.png") center;
-    background-size: cover;
-    position: relative;
+    background-size: 200% 150%;
+   /* position: relative;
     bottom: 40px;
-    right: 100px;
+    right: 100px;*/
 }
 
 #imgDesigns{
